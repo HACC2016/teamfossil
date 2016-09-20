@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Current 2016 Hawaii Election Cycle</title>
+</head>
+<body id="body">
+	<header>
+		<br>
+		<div class="center"><h3>Current 2016 Hawaii Election Cycle</h3></div>
+		<div class="center"><hr class="flex">
+      <h2>Contributions by Industry Segments</h2>
+      <hr class="flex">
+    </div>
+		<br>
+		<br>
+	</header>
+
+	<main>
+	<div class="flex-h">
+    <h4 class="alignRight">Noncandidate Committees</h4><span class="flex"></span><h4>Contribution by Industry</h4>
+  </div>
+
+  <div id="chart"></div>
+
+  <br><br><br><br>
+  <h3 class="flex2 center">Notes<hr></h3>
+  <div class="notes">
+  <ul>
+    <li>A total of $2,629,895.15 was spent by noncandidate committees to support their candidates in the current 2014-2016 election cycle. Have your say, get out and vote!</li>
+    <li>Data is taken from <a href="https://data.hawaii.gov">data.hawaii.gov</a> and is supplied by the <a href="http://ags.hawaii.gov/campaign/">Campaign Spending Commission</a>.</li>
+  </ul>
+  </div>
+  </main>
+
+  <footer>
+		<strong>Data Sources:</strong>
+    <ul>
+      <li><a href="https://data.hawaii.gov/Community/Campaign-Contributions-Made-To-Candidates-By-Hawai/6huc-dcuw">Campaign Contributions Made To Candidates By Hawaii Noncandidate Committees From January 1, 2008 Through August 13, 2016</a></li>
+      <li><a href="https://data.hawaii.gov/Community/Organizational-Reports-For-Hawaii-Noncandidate-Com/i4e7-rcnc">Organizational Reports For Hawaii Noncandidate Committees</a></li>
+    </ul>
+	</footer>
+
+<style>
+  .link {
+    fill: none;
+    stroke: #94B;
+    stroke-opacity: .2;
+  }
+</style>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/sankey.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
