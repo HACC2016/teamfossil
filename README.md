@@ -5,6 +5,10 @@
 Our team created this data visualization to submit for the 2016 Hawaii Annual
 Code Challenge.
 
+This was submitted to DevPost as [Campaign Contributions by Industry Segment --
+What industry groups give the most to candidates for political
+office?](http://devpost.com/software/campaign-contributions-by-industry-segment).
+
 ## Challenge Problem
 
 The Campaign Spending Commission provides a tremendous amount of Candidate
