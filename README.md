@@ -2,8 +2,8 @@
 
 ## Campaign Spending Open Challenge
 
-Our team created this web app to submit for the 2016 Hawaii Annual Code
-Challenge.
+Our team created this data visualization to submit for the 2016 Hawaii Annual
+Code Challenge.
 
 ## Challenge Problem
 
