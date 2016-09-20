@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   color: #312e33;
   font-size: 100%;
-	line-height: 1.2; /*1.4;*/
+	line-height: 1.2;
 }
 
 .relative { position: relative; }
@@ -74,36 +74,21 @@ a[href = ""] {
 	color: white;
 	font-size: x-large;
 }
-//a[href^="http://"]:after, a[href^="https://"]:after {
-//	display: inline-block;
-//	content: "";
-//	height: 16px;
-//	width: 16px;
-//	background: transparent url(../imgs/arrow.png) no-repeat center right;
-//	padding-left: 5px;
-//}
-//a[href^="http://"]:hover:after, a[href^="https://"]:hover:after {
-//	opacity: .8;
-//	padding-left: 6px;
-//	margin-right: -1px;
-//}
 
 h1, h2, h3, h4 {
-    //line-height: 1.25;
     line-height: 0.85;
 }
 h1 {
   margin: 0;
-	font-size: 1.8em; /*2.7em; /* 4em */
+	font-size: 1.8em;
 }
 h2 {
   margin: 0 .5em;
-	font-size: 1.5em; /* 2.25em;*/
+	font-size: 1.5em;
 }
 h3 {
 	margin: 0 .5em;
-
-	font-size: 1.1em; /* 1.6em;*/
+	font-size: 1.1em;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #1a315b;
@@ -112,7 +97,7 @@ h3 {
 h4 {
 	width: 320px;
 	margin: 0 0 1em;
-	font-size: 1.0em; /*1.3em;*/
+	font-size: 1.0em;
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #51cce0;
@@ -137,11 +122,8 @@ hr {
 }
 
 footer {
-	//margin: 2.5em 0 0;
-	padding: 0.8em; /*2.5em;*/
+	padding: 0.8em;
 	background: #e5dcda;
-
-	//text-transform: uppercase;
 	font-weight: 300;
   font-size: 90%;
 }
@@ -156,11 +138,9 @@ footer a {
 
 
 /* * * CHART * * */
-
 #chart {
-  	//height: 1600px;
-  	height: 500px;
-		margin: 0 1em;
+  height: 500px;
+	margin: 0 1em;
 }
 
 .node rect {
@@ -169,12 +149,11 @@ footer a {
 	shape-rendering: crispEdges;
 	stroke-width: 1px;
 	stroke-opacity: .5;
-
 	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .node:hover rect {
 	fill-opacity: .9;
@@ -182,17 +161,15 @@ footer a {
 }
 
 .node text {
-  /*pointer-events: none;*/
   font-size: 11px;
 	fill: #555;
 	text-shadow: 0 0px 3px #fff;
 	letter-spacing: .25px;
-
-	-webkit-transition: all 0.3s ease-out;
-		-moz-transition: all 0.3s ease-out;
-		-ms-transition: all 0.3s ease-out;
-		-o-transition: all 0.3s ease-out;
-		transition: all 0.3s ease-out;
+ 	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
 }
 .node.over text, .node.under text, .under, .over {
 	color: #e31;
@@ -204,18 +181,15 @@ footer a {
 	fill-opacity: 1;
 }
 
-
 .link {
 	fill: none;
-	/*stroke: #6a3;*/
-	stroke: url("#linkGradient");
+  stroke: #94B;
 	stroke-opacity: .25;
-
 	-webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .link.over {
 	stroke: url("#overGradient");
@@ -230,7 +204,6 @@ footer a {
 
 
 /* * * D3 TIP * * */
-
 .d3-tip {
 	padding: 13.5px;
 	background: rgba(49, 46, 51, 0.8);
