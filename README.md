@@ -32,6 +32,6 @@ alternative energy proposal.
 ## Team Members
 
 * Andrew Sasaki
-* Vernon Yoshia
+* Vernon Yoshida
 * Russ Tokuyama
 
